@@ -9,10 +9,14 @@ const options = {
       description: 'Backend API for Finance Dashboard with Role Based Access Control'
     },
     servers: [
-      {
-        url: 'http://localhost:5000',
-        description: 'Local Development Server'
-      }
+       {
+    url: 'https://finance-backend-a964.onrender.com',
+    description: 'Production Server'
+  },
+  {
+    url: 'http://localhost:5000',
+    description: 'Local Development Server'
+  }
     ],
     components: {
       securitySchemes: {
